@@ -1,0 +1,62 @@
+.jumbotron {
+  text-align: center;
+  color: aliceblue;
+  padding: 300px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+.home-section {
+  background-image: url(./pictures/1398314.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#search {
+  color: rgb(131, 205, 255);
+  font-size: 150%;
+}
+
+#list {
+  color: rgb(131, 205, 255);
+  font-size: 250%;
+}
+
+.nav-brand {
+  color: #fff;
+  font-size: 200%;
+}
+
+#side-menu {
+  height: 100%;
+  width: 325px;
+  background: rgb(73, 73, 80);
+  top:0;
+  right: 0;
+  position:fixed;
+  border-left: rgb(131, 205, 255) 3px solid;
+  transition: 0.75s;
+  margin-right: -325px;
+}
+
+#side-menu ul {
+  list-style: none;
+  color: #fff;
+  margin-top: 50%;
+  padding: 0;
+}
+
+#side-menu ul li {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  border-bottom:  rgb(131, 205, 255) 1px solid;
+}
+
+body {
+  transition: 0.75s;
+}
