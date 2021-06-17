@@ -15,13 +15,13 @@ const Header_section = () => {
     }
 
     return (
-        <header className='home-section' id='main'>
-            <section id='header'>
-                <nav className='navbar py-4'>
-                    <div className="container">
+        <header className='home-section' id='main' onMouseLeave={()=>closeMenu()}>
+            <section id='header' onMouseLeave={()=>closeMenu()}>
+                <nav className='navbar py-4' onMouseLeave={()=>closeMenu()}>
+                    <div className="container" >
                         <Search id='search'/>
                         <a href="#" className="nav-brand mx-auto">TechLAB</a>
-                        <List onClick={()=>openMenu()} id= 'list'/>
+                        <List onMouseOver={()=>openMenu()} id= 'list'/>
                     </div>
                     <div id="side-menu">
                         <ul>
@@ -33,8 +33,8 @@ const Header_section = () => {
                     </div>
                 </nav>
             </section>
-            <div className="jumbotron text-center">
-                <div className="intro">
+            <div className="jumbotron text-center" onMouseLeave={()=>closeMenu()}>
+                <div className="intro" onMouseLeave={()=>closeMenu()}>
                     <h1>The Future Is finally Here!</h1>
                     <p>
                         This is a simple hero unit, a simple jumbotron-style component for calling
